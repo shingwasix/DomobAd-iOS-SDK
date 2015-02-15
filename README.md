@@ -17,7 +17,7 @@ iOS 5.0及以上
 
 使用[cocospod](http://cocoapods.org/)进行安装,在`podfile`中添加如下代码
 
-> `pod 'SS-DomobAdSDK'
+> `pod 'SS-DomobAdSDK'`
 
 # 官方下载
 http://www.domob.cn/developers/SDKdownload.htm
