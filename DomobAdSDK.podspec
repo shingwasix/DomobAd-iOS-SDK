@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "5.0"
   s.source       = { :git => "https://github.com/shingwasix/DomobAd-iOS-SDK.git", :tag => "#{s.version}" }
   s.source_files = "DomobAdSDK/*.h"
-  s.public_header_files = "DomobAdSDK/*.h"
   s.resource = "DomobAdSDK/DomobAdSDKBundle/*.bundle"
   s.preserve_paths = "DomobAdSDK/*.a"
   s.framework = 'CoreMedia','MediaPlayer','QuartzCore','CoreText','CoreGraphics','StoreKit','PassKit','Social','EventKit','AVFoundation','AudioToolbox','SystemConfiguration','Foundation','UIKit'
