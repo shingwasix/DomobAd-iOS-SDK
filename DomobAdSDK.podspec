@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { "Domob" => "http://www.domob.cn" }
   s.platform     = :ios, "5.0"
   s.source       = { :git => "https://github.com/shingwasix/DomobAd-iOS-SDK.git", :tag => "#{s.version}" }
+  s.source_files = "DomobAdSDK/*.h",
   s.public_header_files = "DomobAdSDK/*.h"
   s.resource = "DomobAdSDK/DomobAdSDKBundle/*.bundle"
   s.preserve_paths = "DomobAdSDK/*.a"
