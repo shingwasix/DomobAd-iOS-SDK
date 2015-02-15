@@ -7,6 +7,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "DMAdView.h"
+#import "DMSplashAdController.h"
 
 #ifndef DOMOB_AD_SIZE_320x240
 // For iPhone
