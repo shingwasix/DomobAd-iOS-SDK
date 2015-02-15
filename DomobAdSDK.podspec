@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "DomobAdSDK"
+  s.name         = "SS-DomobAdSDK"
   s.version      = "4.4.8"
   s.license  = { 
 	:type => 'Cpoyright', 
@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   }
   s.summary      = "Domob AD SDK for iOS."
   s.homepage     = "http://www.domob.cn/developers/changelog/ios_sdk_changelog.html"
-  s.author       = { "Domob" => "http://www.domob.cn" }
+  s.author       = { "Shingwa Six" => "http://blog.waaile.com" }
   s.platform     = :ios, "5.0"
   s.source       = { :git => "https://github.com/shingwasix/DomobAd-iOS-SDK.git", :tag => "#{s.version}" }
   s.source_files = "DomobAdSDK/*.h"
@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.framework = 'CoreMedia','MediaPlayer','QuartzCore','CoreText','CoreGraphics','StoreKit','PassKit','Social','EventKit','AVFoundation','AudioToolbox','SystemConfiguration','Foundation','UIKit'
   s.libraries = 'z','sqlite3','DomobAdSDK'
   s.requires_arc = true
-  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/DomobAdSDK' }
+  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/#{s.name}' }
 end
