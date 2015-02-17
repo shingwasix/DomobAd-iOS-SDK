@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.framework = 'CoreMedia','MediaPlayer','QuartzCore','CoreText','CoreGraphics','StoreKit','PassKit','Social','EventKit','AVFoundation','AudioToolbox','SystemConfiguration','Foundation','UIKit'
   s.libraries = 'z','sqlite3','DomobAdSDK'
   s.requires_arc = true
-  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/#{s.name}' }
+  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => "$(PODS_ROOT)/#{s.name}/DomobAdSDK" }
 end
