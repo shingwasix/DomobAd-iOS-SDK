@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "SS-DomobAdSDK"
+  s.name         = "DomobAdSDK"
   s.version      = "4.4.8"
   s.license  = { 
 	:type => 'Cpoyright', 
